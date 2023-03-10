@@ -1,0 +1,23 @@
+{
+
+  "namespace": "com.synechron.enbd.creditcard.enbdcreditcard.schema",
+  "type": "record",
+  "name": "SchemaAccount",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int",
+      "default": 0
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "default": "string"
+    },
+    {
+      "name": "totalBalance",
+      "type": "double",
+      "default": 0.0
+    }
+  ]
+}
